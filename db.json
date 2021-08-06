@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "sản phẩm 1 ",
+      "price": "100000",
+      "desc": "điện thoại",
+      "status": false,
+      "img": "https://cdn.tgdd.vn/Products/Images/42/230630/vivo-y12s-den-new-600x600-600x600.jpg"
+    },
+    {
+      "id": 2,
+      "name": "sản phẩm 2",
+      "price": "20000",
+      "desc": "điện thoại",
+      "status": false,
+      "img": "https://cdn.tgdd.vn/Products/Images/42/230630/vivo-y12s-den-new-600x600-600x600.jpg"
+    },
+    {
+      "id": 3,
+      "name": "sản phẩm 3",
+      "price": "29299",
+      "desc": "điện thoại",
+      "status": false,
+      "img": "https://salt.tikicdn.com/cache/280x280/ts/product/89/a2/66/69f041ba7b0cb97acc01f52ac9ab5c40.jpg"
+    },
+    {
+      "id": 4,
+      "name": "sản phẩm 4",
+      "price": "4999",
+      "desc": "máy giặt",
+      "status": false,
+      "img": "https://salt.tikicdn.com/cache/280x280/ts/product/89/a2/66/69f041ba7b0cb97acc01f52ac9ab5c40.jpg"
+    }
+  ]
+}

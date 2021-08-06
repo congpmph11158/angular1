@@ -1,0 +1,40 @@
+<h2>Cập nhật sản phẩm</h2>
+<form action="" class="mt-3" *ngIf="product">
+  <div class="mb-3">
+    <label for="" class="form-label">Tên sản phẩm</label>
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="product.name"
+      name="name"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Giá sản phẩm</label>
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="product.price"
+      name="price"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Mô tả sản phẩm</label>
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="product.desc"
+      name="desc"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Ảnh sản phẩm</label>
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="product.img"
+      name="img"
+    />
+  </div>
+  <button class="btn btn-primary" (click)="onUpdateProduct()">Cập nhật</button>
+</form>

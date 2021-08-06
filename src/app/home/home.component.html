@@ -1,0 +1,25 @@
+<h1>HOME PAGE</h1>
+<div class="row">
+  <div class="col-4 mt-4" *ngFor="let product of products">
+    <div class="card mr-2" style="width: 18rem">
+      <img
+        src="{{ product.img }}"
+        class="card-img-top"
+        style="width: 200px; height: auto"
+        alt="ảnh sản phẩm"
+      />
+      <div class="card-body">
+        <h5 class="card-title">{{ product.name }}</h5>
+        <p class="card-text">
+          {{ product.desc }}
+        </p>
+        <a
+          href="#"
+          class="btn btn-primary"
+          routerLink="/product/detail/{{ product.id }}"
+          >Chi tiết sản phẩm</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
